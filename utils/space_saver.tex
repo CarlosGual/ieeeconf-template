@@ -1,0 +1,32 @@
+% A collection of dubious space saving macros
+\setlength{\parindent}{0cm}
+\parskip=2pt
+\abovedisplayskip 3.0pt plus2pt minus2pt%
+\belowdisplayskip \abovedisplayskip
+\renewcommand{\baselinestretch}{1} % only use this one in emergencies
+
+%Section spacing
+\newcommand{\csection}[1]{
+    \vspace{-0.06in}
+    \section{#1}
+    \vspace{-0.06in}
+}
+
+\newcommand{\csubsection}[1]{
+    \vspace{-0.08in}
+    \subsection{#1}
+    \vspace{-0.08in}
+}
+
+\newcommand{\csubsubsection}[1]{
+    \vspace{-0.06in}
+    \subsubsection{#1}
+    \vspace{-0.05in}
+}
+
+
+%caption/figure spacing
+\setlength{\floatsep}{1ex plus 0ex minus 0.5ex}
+\setlength{\textfloatsep}{0ex plus 0ex minus 0ex}
+\setlength{\abovecaptionskip}{0ex plus 0ex minus 0ex}
+\setlength{\belowcaptionskip}{0ex plus 0ex minus 0.5ex}
