@@ -1,2 +1,2 @@
-# extended-abstract-harl
-Latex souce for extended abstract on Human Aligned Reinforcement Learning workshop for ICRA 2024
+# ieeeconf-template
+Template with my references for IEEE conferences with double column
